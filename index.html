@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#050508">
+  <title>I ♥ YOU</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="stage">
+    <div class="glow" id="glow"></div>
+    <div class="glow" id="glow2"></div>
+
+    <canvas id="fx"></canvas>
+
+    <div class="lamp" id="lamp">
+      <div class="wire"></div>
+      <div class="fixture">
+        <div class="socket"></div>
+        <div class="bulb"></div>
+        <button class="pull" id="pull" aria-label="Chiroq simini torting">
+          <span class="string"></span>
+          <span class="bead"></span>
+        </button>
+      </div>
+    </div>
+
+    <p class="hint" id="hint">Simni pastga torting</p>
+
+    <div class="message" id="message" aria-hidden="true">
+      <div class="wall" id="wl"></div>
+      <div class="wall" id="wr"></div>
+      <div class="row" id="row">
+        <span class="side l" id="sI">I</span>
+        <span class="heart" id="sH"><i>&#9829;&#xFE0E;</i></span>
+        <span class="side r" id="sY">YOU</span>
+      </div>
+    </div>
+
+    <div id="bigF">B</div>
+    <div id="flash"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
