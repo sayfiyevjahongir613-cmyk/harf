@@ -126,7 +126,7 @@
         l.y += l.vy * dt;
         if (l.y > H + l.size) { letters.splice(i, 1); continue; }
         ctx.font = `800 ${l.size}px system-ui, sans-serif`;
-        ctx.fillText('B', l.x, l.y);
+        ctx.fillText('M', l.x, l.y);
       }
       ctx.shadowBlur = 0;
     }
